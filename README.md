@@ -20,6 +20,10 @@ Press ctrl+` to open terminal  (beside 1 key) type and run command **npm install
 
 Ater the successful build run command ***npm start***
 
+## Screenshot
+![image](https://user-images.githubusercontent.com/31389060/166270594-16424ba5-294a-43e1-9bdf-8b777503a593.png)
+
+![image](https://user-images.githubusercontent.com/31389060/166270486-52058163-27c2-4d25-9879-3df7ee3489c1.png)
 
 
 
