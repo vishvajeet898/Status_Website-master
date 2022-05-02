@@ -1,4 +1,31 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Steps to run
+
+Download and install VS Code from [HERE](https://code.visualstudio.com/)
+
+Download and install GIT from [HERE](https://git-scm.com/downloads)
+
+Download and install NodeJs from [HERE](https://nodejs.org/en/download/)
+
+Open VsCode click on VCS and then on clone repository.
+
+<img width="771" alt="image" src="https://user-images.githubusercontent.com/31389060/166222275-3f71cfae-cbc5-42c2-92db-721a1b55d69d.png">
+
+Copy this url [https://github.com/vishvajeet898/Status_Website-master.git](https://github.com/vishvajeet898/Status_Website-master.git), paste it hit enter key and select the location to save repository
+![image](https://user-images.githubusercontent.com/31389060/166222519-5e33bbba-cad2-4192-9878-cd2e4b97fb58.png)
+
+Now Click on Open and then on Trust this project.
+![image](https://user-images.githubusercontent.com/31389060/166222580-da7edc42-6afc-45c4-906e-9c34176878f2.png)
+
+Press ctrl+` to open terminal  (beside 1 key) type and run command **npm install**
+
+Ater the successful build run command ***npm start***
+
+## Screenshot
+![image](https://user-images.githubusercontent.com/31389060/166270594-16424ba5-294a-43e1-9bdf-8b777503a593.png)
+
+![image](https://user-images.githubusercontent.com/31389060/166270486-52058163-27c2-4d25-9879-3df7ee3489c1.png)
+
+
 
 ## Available Scripts
 
@@ -37,32 +64,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
