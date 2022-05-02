@@ -33,8 +33,9 @@ class SearchPage extends Component {
         }
 
         //split search to carrierId and number
-        let regexStr = bs.match(/[a-z]+|[^a-z]+/gi);
-        this.props.searchFlight(regexStr[0], regexStr[1]);
+        let carrier = bs.substring(0, 2);
+        let fNo = bs.substring(2);
+        this.props.searchFlight(carrier,fNo);
 
     }
 

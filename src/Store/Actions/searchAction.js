@@ -6,13 +6,14 @@ export const searchFlight = (carrier, flight) => {
         //get date
         const today = new Date();
         const todayFormatted = today.getFullYear() + '/' + (today.getMonth() + 1) + '/' + today.getDate();
+        const appId = 'acd737ee';
+        const appKey = '9fe90940ef77674c913377d07c629d73' ;
 
-        const appId = '8a3f5b9c';
-        const appKey = process.env.REACT_APP_FLIGHT_STATS_APP_KEY ;
-        let url = `/flex/flightstatus/rest/v2/json/flight/status/${carrier}/${flight}/arr/${todayFormatted}?appId=${appId}&appKey=${appKey}&utc=false`
+      //  let url = `/flex/flightstatus/rest/v2/json/flight/status/${carrier}/${flight}/arr/${todayFormatted}?appId=${appId}&appKey=${appKey}&utc=false`
+        let url1 = `http://localhost:8080/status?flightName=${carrier+flight}&date=${todayFormatted}`
 
         
-        return axios.get(url).then(response => {
+        return axios.get(url1).then(response => {
 
             //dictionary for flightStatus code
             let flightStatus = {
